@@ -1,5 +1,5 @@
 {
     "board": "arduino:avr:uno",
     "port": "COM9",
-    "sketch": "REFERENCE\\미세먼지 키트\\[3] 예제코드\\[2] 미세먼지 키트\\4_03_DUST_KIT\\4_03_DUST_KIT.ino"
+    "sketch": "Experiments\\Gas\\Gas.ino"
 }
