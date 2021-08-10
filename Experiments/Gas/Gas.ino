@@ -9,7 +9,7 @@ int dust_sensor = A0;   // 미세먼지 핀 설정
 int GasPin1 = 8;
 int GasPin2 = 9;
 int GasPin3 = 10;
-int GasPin4 = 11;
+int GasPin4 = A2;
 
 int rgb_red = 5;    // rgb 핀 빨간색 핀
 int rgb_green = 6;  // rgb핀 녹색색 핀
@@ -173,10 +173,10 @@ void loop(){
   // lcd.print("/");
   // lcd.setCursor(14,1);
   // lcd.print(analogRead(GasPin4));
-  Serial.print(dustDensityug); Serial.print(" ");
-  Serial.print(analogRead(GasPin1)); Serial.print(" ");
-  Serial.print(analogRead(GasPin2)); Serial.print(" ");
-  Serial.print(analogRead(GasPin3)); Serial.print(" ");
+//  Serial.println(dustDensityug);
+//  Serial.print(analogRead(GasPin1)); Serial.print("\t");
+//  Serial.print(analogRead(GasPin2)); Serial.print("\t");
+//  Serial.print(analogRead(GasPin3)); Serial.print("\t");
   Serial.println(analogRead(GasPin4));
   delay(100);
 }

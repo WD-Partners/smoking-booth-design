@@ -1,5 +1,5 @@
 {
     "board": "arduino:avr:uno",
     "port": "COM9",
-    "sketch": "Experiments\\Gas\\Gas.ino"
+    "sketch": "Experiments\\Analyze\\Analyze.ino"
 }
