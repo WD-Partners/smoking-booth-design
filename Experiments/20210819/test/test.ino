@@ -46,8 +46,6 @@ void loop() {
 
     if((count==0 && c!=0x42) || (count==1 && c!=0x4d)){
 
-      Serial.println("check failed");
-
       break;
 
     }
@@ -136,8 +134,6 @@ void loop() {
   }
 
   while(SerialWD.available()) SerialWD.read();
-
-  Serial.println("");
 
   delay(500);
 
