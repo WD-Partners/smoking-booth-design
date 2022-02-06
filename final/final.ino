@@ -97,8 +97,8 @@ void loop() {
       Serial.print("PM2.5 ");
       Serial.print(buffer);
 
-      lcd.setCursor(9,1);
-      lcd.print(pmcf25);
+      lcd.setCursor(8,1);
+      lcd.print(buffer);
       
 
  //     Serial.println(" ug/m3");
